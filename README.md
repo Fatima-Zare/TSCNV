@@ -14,5 +14,6 @@
 **Method:**
 
 **Preprocessing**
+samtools view -bh -L exom.bed tumor.bam > tumor_filteredexon.bam
 
 **Segmentation**
