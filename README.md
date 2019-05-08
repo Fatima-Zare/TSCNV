@@ -15,7 +15,7 @@
 
 ## **Preprocessing**
 
-### base-level read-count of the exonic regions of both sample and control data using samtools ans BEDTools
+##### base-level read-count of the exonic regions of both sample and control data using samtools ans BEDTools
 
 ```
  > samtools view -bh -L exom.bed tumor.bam > tumor_filteredexon.bam
