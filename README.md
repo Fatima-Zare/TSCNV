@@ -13,7 +13,7 @@
 
 ## **Method:**
 
-##### preparing the data: base-level read-count of the exonic regions of both sample and control data using samtools and BEDTools
+##### Preparing the data: base-level read-count of the exonic regions of both sample and control data using samtools and BEDTools
 
 ```
  $ samtools view -bh -L exom.bed tumor.bam > tumor_filteredexon.bam
@@ -29,5 +29,7 @@
 
 ```
 
+##### Removing outliers using Hampel identifier
+```
 
-
+```
