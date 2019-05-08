@@ -17,7 +17,7 @@
 
 ### base-level read-count of the exonic regions of both sample and control data using samtools ans BEDTools
 
-```python
+```
  samtools view -bh -L exom.bed tumor.bam > tumor_filteredexon.bam
  samtools view -bh -L exom.bed normal.bam > control_filteredexon.bam
  samtools view -H tumor_filteredexon.bam  | grep -P "@SQ\tSN:" | sed 's/@SQ\tSN://' | sed 's/\tLN:/\t/' > genome.txt
