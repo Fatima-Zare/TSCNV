@@ -22,6 +22,12 @@
  > sort -k1,1V genome.txt > s-genome.txt
  > bedtools genomecov -ibam tumor_filteredexon.bam -d -g s-genome.txt  > tumor.cov
  > bedtools genomecov -ibam control_filteredexon.bam -d -g s-genome.txt  > normal.cov
+ 
+awk '{if ($1==1) {print}}' tumor.cov > tumor_chr1.cov
+awk '{if ($1==1) {print}}' normal.cov > normal_chr1.cov
+awk '{print $3}' tumor_chr1.cov > tumorreads.txt
+awk '{print $3}' normal_chr1.cov > normalreads.txt
+
 ```
 
 
