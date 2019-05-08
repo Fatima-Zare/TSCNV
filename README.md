@@ -14,8 +14,8 @@
 ## **Method:**
 
 ## **Preprocessing**
-<!--- considering only exonic reagions-->
-{% comment %} considering only exonic reagions {% endcomment %}
+#considering only exonic reagions
+
 - samtools view -bh -L exom.bed tumor.bam > tumor_filteredexon.bam
 - samtools view -bh -L exom.bed normal.bam > control_filteredexon.bam
 
