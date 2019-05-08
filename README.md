@@ -31,5 +31,5 @@
 
 ##### Removing outliers using Hampel identifier
 ```
-
+python hampel.py
 ```
