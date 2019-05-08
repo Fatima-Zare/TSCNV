@@ -15,5 +15,8 @@
 
 ## **Preprocessing**
 - samtools view -bh -L exom.bed tumor.bam > tumor_filteredexon.bam
+- samtools view -bh -L exom.bed normal.bam > control_filteredexon.bam
+
+
 
 ## **Segmentation**
