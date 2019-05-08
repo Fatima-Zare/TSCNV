@@ -1,7 +1,7 @@
 # TSCNV
 **Copy number variation detection for next generation sequencing data using TV-L1**
 
-**In-p-ut:**
+**In_p_ut:**
 
 Sorted BAM files of the tumour and control (matched normal) samples
 
